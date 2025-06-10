@@ -9,6 +9,10 @@ This project has 3 JavaScript programs:
 
 1. Open your terminal.
 2. Go into the folder of the program you want.
-3. Run it using Node.js:
-wooooi
-# wk1-code-challenge
+3.  Install prompt-sync
+   npm install prompt-sync
+4. In your .js file make sure you have this line at the top
+    const prompt = require('prompt-sync')();
+5. Run it using Node.js: example node chai.js
+
+

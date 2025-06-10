@@ -1,3 +1,4 @@
+const prompt = require('prompt-sync')();
 function estimateTransactionFee(amountToSend) {
     const rawFee = amountToSend * 0.015;
     const fee = Math.max(10, Math.min(rawFee, 70)); // kuna minimun na maxim amount 
